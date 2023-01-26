@@ -49,11 +49,11 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-end">
-          <Link to="/login" className="btn mr-2">
+          <Link to="/login" className="btn mr-2 btn-outline">
             {" "}
             Login
           </Link>
-          <Link to="/register" className="btn mr-2">
+          <Link to="/register" className="btn mr-2 btn btn-outline btn-success">
             {" "}
             Register
           </Link>

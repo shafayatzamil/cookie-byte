@@ -41,12 +41,12 @@ const Register = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div className="grid grid-cols-2  w-screen h-screen ">
-        <div className="bg-[#4267CF] ">
+      <div className="grid lg:grid-cols-2 grid-cols-1  w-screen h-screen ">
+        <div className="bg-[#4267CF]  ">
           <div className="flex justify-center items-center my-40 mt-60">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/4/47/Flock_Logo.svg"
-              className="w-36"
+              className="w-56"
               alt=""
             />
           </div>
@@ -54,7 +54,7 @@ const Register = () => {
         <div className="">
           <div className="flex  justify-center my-auto">
             <div className="w-92 px-12">
-              <h2 className="text-3xl font-bold mt-2">Please Register</h2>
+              <h2 className="text-3xl font-bold mt-2 text-center">Please Register</h2>
               {/* <p className="text-base text-[#666E85]">
               Welcome back! Please enter your credential
             </p> */}
@@ -62,7 +62,7 @@ const Register = () => {
               <div className="card -mt-4 ">
                 <form onSubmit={handleSubmit}>
                   <div className="card-body">
-                    <div className="form-control">
+                    <div className="form-control ">
                       <label className="label">
                         <span className="label-text">Name</span>
                       </label>
@@ -74,7 +74,7 @@ const Register = () => {
                       />
                     </div>
 
-                    <div className="form-control">
+                    <div className="form-control ">
                       <label className="label">
                         <span className="label-text">User Name</span>
                       </label>
@@ -82,7 +82,7 @@ const Register = () => {
                         type="text"
                         name="username"
                         placeholder="UserName"
-                        className="input input-bordered"
+                        className="input input-bordered "
                       />
                     </div>
 
